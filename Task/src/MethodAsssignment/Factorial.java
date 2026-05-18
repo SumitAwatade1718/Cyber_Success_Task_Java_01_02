@@ -27,12 +27,12 @@ public class Factorial {
 	
 	private static long calculateFactorial(int num) {
 		
-		 if(num == 0 || num == 1) {
+		 if(num == 0||num == 1){
 			return 1;
 		}else{
 			long factorial = 1;
 			for(int i = 2; i <= num; i++) {
-				factorial =factorial * i;
+				factorial *= i;
 			}
 			return factorial;
 		}
